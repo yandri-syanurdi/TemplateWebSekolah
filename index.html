@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Template Web Sekolah</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" >
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <!-- font awesome / icon -->
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+    <!-- style css custom kita -->
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    
+    <section id="topbar">
+      <div class="container">
+        <div class="row">
+          
+          <div class="col-md-9">
+            <ul class="top-contact">
+              <li><a href=""><i class="fas fa-phone"></i> 021-123-345-678</a></li>
+              <li><a href=""><i class="fas fa-envelope"></i> smantrainit@sch.id</a></li>
+              <li><a href=""><i class="fas fa-bullhorn"></i> PPDB TA 2020/2021 Telah dibuka!</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <ul class="sosmed">
+              <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href=""><i class="fab fa-instagram"></i></a></li>
+              <li><a href=""><i class="fab fa-youtube"></i></a></li>
+              <li><a href=""><i class="fab fa-twitter"></i></a></li>
+            </ul>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    
+    <header>
+      <div class="container">
+        <div class="row">
+          
+          <div class="col-md-8">
+            <div class="brand">
+              <img src="assets/img/logo-toga.png" alt="">
+              <div class="brand-name">
+                <h1>SMA Negeri 404 Trainit</h1>
+                <h3>Sekolah Pencetak Generasi Teladan dan Berprestasi</h3> 
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 pembungkus-searchbox">
+            <div class="searchbox">
+              <form method="get">
+                <div class="input-group">
+                  <!-- <input class="form-control" type="text" name="" placeholder="Recipient's text" aria-label="Recipient's " aria-describedby="my-addon"> -->
+                  <input class="form-control" type="text" name="cari" placeholder="Cari sesuatu.." aria-label="Tombol Cari" aria-describedby="tombol-cari">
+                  <div class="input-group-append">
+                    <!-- <span class="input-group-text" id="my-addon">Text</span> -->
+                    <!-- <button class="btn btn-primary" id="tombol-cari">Cari</button> -->
+                    <button class="btn btn-utama" id="tombol-cari">Cari</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div> <!-- .col-md-8 -->
+          
+        </div> <!-- .row -->
+      </div>  <!-- .container -->
+    </header>
+    
+    <!-- section menu -->
+    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-biru"> -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-biru"> <!-- letak .navbar-light -->
+      <div class="container">
+        <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="my-nav" class="collapse navbar-collapse">
+          <ul class="navbar-nav mr-auto"> <!-- letak .navbar-nav -->
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Beranda<span class="sr-only">(current)</span></a>   <!-- salah satu letak .nav-link -->
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#">Profil</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item active" href="#">Text</a>
+              </div>
+            </li> -->
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"  role="button">Profil</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Sejarah</a>
+                <a class="dropdown-item" href="#">Visi dan Misi</a>
+                <a class="dropdown-item" href="#">Peta Sekolah</a>
+              </div>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#">Sarana & Prasarana</a>
+            </li> -->
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"  role="button">Sarana & Prasarana</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Sarana Infrastuktur</a>
+                <a class="dropdown-item" href="#">Sarana Pembelajaran</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Ekstrakulikuler</a>
+            </li>
+            <li class="nav-item">
+              <!-- <a class="nav-link" href="#">Prestasi</a> -->
+              <a class="nav-link" href="./mybackup/menu.html">Prestasi</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#">Berita</a>
+            </li> -->
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"  role="button">Berita</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Berita Sekolah</a>
+                <a class="dropdown-item" href="#">Pengumuman</a>
+                <a class="dropdown-item" href="#">Agenda</a>
+                <a class="dropdown-item" href="#">Kalender Akademik</a>
+              </div>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#">Galeri</a>
+            </li> -->
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="button">Galeri</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Galeri Foto</a>
+                <a class="dropdown-item" href="#">Galeri Video / Dokumentasi</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <!-- <a class="nav-link" href="#">Kontak</a> -->
+              <a class="nav-link" href="menu.html">Kontak</a>
+            </li>
+          </ul>
+        </div>
+      </div> <!-- .container --> 
+    </nav>    
+    
+    <!-- section hero area -->
+    <section class="my-banner" id="hero-area">
+      <div id="slider-hero-nav">
+        <div class="owl-carousel" id="slider-hero">
+          <div class="slider-item">
+            <div class="slider-item-img">
+              <img src="assets/img/banner-siswa.jpg" alt="">
+            </div>
+            <div class="slider-item-content">
+              <h2>Penerimaan Peserta Didik Baru TA 2020/2021 Telah Dibuka!</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo eaque earum tempora. Velit dolores harum veniam nemo iure.</p>
+              <!-- <button class="btn btn-utama">Daftar PPDB</button> -->
+              <a class="btn btn-utama">Daftar PPDB</a>
+            </div>
+          </div> <!-- .slider-item --> 
+          <div class="slider-item">
+            <div class="slider-item-img">
+              <img src="assets/img/banner-siswa.jpg" alt="">
+            </div>
+            <div class="slider-item-content">
+              <h2>Title 2</h2>
+              <p>Subtitle here</p>
+              <!-- <button class="btn btn-utama">CTA BUTTON</button> -->
+              <!-- <a class="btn btn-utama">CTA BUTTON</a> -->
+              <a class="btn btn-utama">CTA button</a>
+            </div>
+          </div> <!-- .slider-item --> 
+        </div>
+      </div>
+    </section>
+    
+    <section id="sambutan">
+      <div class="container">
+        <h2>PROFIL SMA NEGERI 404 TRAINIT</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="video-wrapper">
+              <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/Pk8hVIf4ve4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+              <!-- <iframe width="560" height="315" src="http://localhost/videoplayback2.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+              <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/xx" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+               <!-- <iframe width="560" height="315" src="http://localhost/videoplayback2.mp4" autoplay=false frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+               <video width="560" height="315" src="http://localhost/web-sekolah/video/videoplayback2.mp4" controls></video>
+               <!-- <video width="100%" height="100%" src="http://localhost/videoplayback2.mp4" controls></video> -->
+              </div>
+          </div>
+          <div class="col-md-6">
+            <h3>Sambutan Kepala Sekolah</h3>
+            <p>Assalamu'alaikum wr. wb.
+              Pada tahun 2045 merupakan target generasi emas yaitu generasi yang saat ini sedang mengenyam
+              pendidikan dan diharapkan akan meraih kesuksesan di tahun 2045. Oleh karena itu perlu adanya usaha
+              mempersiapkan generasi emas tersebut untuk menyelaraskan dengan perkembangan zaman. Pendidikan di
+              SMA Negeri 404 TRAINIT harus mampu persiapan generasi emas di tahun 2045 tersebut. Dunia sekarang
+              ini dihadapkan dengan krisis karakter dimana kejahatan yang merajalela dimana-mana ... </p>
+              <a href="" class="btn btn-utama">Baca Selengkapnya</a>
+            </div>
+        </div>
+      </div>
+    </section> <!-- #sambutan -->
+    
+    <section id="prestasi">
+      <div class="container">
+        <div class="section-title">
+          <h2>Prestasi Terbaru</h2>
+        </div>
+        
+        <div class="section-item">
+          <div class="row">
+            <div class="col-md-6">
+              <a href="">
+                <img class="section-item-thumbnail" src="assets/img/juara-olimpiade.jpeg" alt="">
+              </a>  
+            </div>
+            <div class="col-md-6 col-item-kanan">
+              <div class="section-item-title">
+               <a href="">
+                  <h3>Medali Perak dalam IOI Olympiad in Informatics/IOI di Azerbaijan </h3>
+               </a>
+                <div class="section-item-meta">
+                  <span><i class="far fa-calendar-alt"></i> 20 Agust, 2019 - 22 Agust, 2019</span>
+                  <span><i class="fas fa-map-marked-alt"></i> Baku, Azerbaijan</span>
+                </div>
+              </div>
+                <div class="section-item-body">
+                  <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel assumenda ullam dicta. Esse explicabo porro possimus, animi voluptates beatae in iusto natus consequatur illum similique dolor quod magni, fugiat et.</p> -->
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem eaque, ad odit sapiente rem accusamus tempore quas labore saepe sed enim non temporibus sequi! Nobis, quae? Rerum at excepturi unde debitis. Nemo eius minus animi sequi quidem autem voluptas rerum.</p>
+                </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="section-item">
+          <div class="row">
+            <div class="col-md-6">
+              <!-- <img class="section-item-thumbnail" src="assets/img/juara-olimpiade.jpeg" alt=""> -->
+              <a href="">
+                <img class="section-item-thumbnail" src="assets/img/juara-olimpiade.jpeg" alt="">
+              </a>
+            </div>
+            <div class="col-md-6 col-item-kanan">
+              <div class="section-item-title">
+                <!-- <h3>Medali Perak dalam IOI Olympiad in Informatics/IOI di Azerbaijan </h3> -->
+                <a href="">
+                  <h3>Medali Perak dalam IOI Olympiad in Informatics/IOI di Azerbaijan </h3>
+               </a>
+                <div class="section-item-meta">
+                  <span><i class="far fa-calendar-alt"></i> 20 Agust, 2019 - 22 Agust, 2019</span>
+                  <span><i class="fas fa-map-marked-alt"></i> Baku, Azerbaijan</span>
+                </div>
+              </div>
+                <div class="section-item-body">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel assumenda ullam dicta. Esse explicabo porro possimus, animi voluptates beatae in iusto natus consequatur illum similique dolor quod magni, fugiat et.</p>
+                </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="section-item">
+          <div class="row">
+            <div class="col-md-6">
+              <!-- <img class="section-item-thumbnail" src="assets/img/juara-olimpiade.jpeg" alt=""> -->
+              <a href="">
+                <img class="section-item-thumbnail" src="assets/img/juara-olimpiade.jpeg" alt="">
+              </a>
+            </div>
+            <div class="col-md-6 col-item-kanan">
+              <div class="section-item-title">
+                <!-- <h3>Medali Perak dalam IOI Olympiad in Informatics/IOI di Azerbaijan </h3> -->
+                <a href="">
+                  <h3>Medali Perak dalam IOI Olympiad in Informatics/IOI di Azerbaijan </h3>
+               </a>
+                <div class="section-item-meta">
+                  <span><i class="far fa-calendar-alt"></i> 20 Agust, 2019 - 22 Agust, 2019</span>
+                  <span><i class="fas fa-map-marked-alt"></i> Baku, Azerbaijan</span>
+                </div>
+              </div>
+                <div class="section-item-body">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel assumenda ullam dicta. Esse explicabo porro possimus, animi voluptates beatae in iusto natus consequatur illum similique dolor quod magni, fugiat et.</p>
+                </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="tombol-selengkapnya">
+          <a href="" class="btn btn-more">Lihat Prestasi Lainnya</a>
+        </div>
+        
+      </div>
+    </section>
+    
+    <section id="ekstrakulikuler" class="aktivitas">
+      <div class="container">
+          <!--INI SECTION Ekstrakulikuler -->
+          <div class="section-title">
+              <h2>Ekstrakulikuler</h2>
+          </div>
+          <div class="section-body">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="section-body-item">
+                  <div class="row row-2">
+                    <div class="col-md-3">
+                      <i class="far fa-user"></i>
+                      <!-- <i class="far fa-"></i> :P -->
+                    </div>
+                    <div class="col-md-9">
+                      <h4>Praja Muda Karana (Pramuka)</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="section-body-item">
+                  <div class="row row-2">
+                    <div class="col-md-3">
+                      <i class="far fa-user"></i>
+                      <!-- <i class="far fa-"></i> :P -->
+                    </div>
+                    <div class="col-md-9">
+                      <h4>Palang Merah Remaja (PMR)</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="section-body-item">
+                  <div class="row row-2">
+                    <div class="col-md-3">
+                      <i class="far fa-user"></i>
+                      <!-- <i class="far fa-"></i> :P -->
+                    </div>
+                    <div class="col-md-9">
+                      <h4>Olimpiade Sains</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="section-body-item">
+                  <div class="row row-2">
+                    <div class="col-md-3">
+                      <i class="far fa-user"></i>
+                      <!-- <i class="far fa-"></i> :P -->
+                    </div>
+                    <div class="col-md-9">
+                      <h4>Pecinta Alam</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="section-body-item">
+                  <div class="row row-2">
+                    <div class="col-md-3">
+                      <i class="far fa-user"></i>
+                      <!-- <i class="far fa-"></i> :P -->
+                    </div>
+                    <div class="col-md-9">
+                      <h4>Karya Ilmiah Remaja</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="section-body-item">
+                  <div class="row row-2">
+                    <div class="col-md-3">
+                      <i class="far fa-user"></i>
+                      <!-- <i class="far fa-"></i> :P -->
+                    </div>
+                    <div class="col-md-9">
+                      <h4>Sinematografi</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="tombol-selengkapnyah">
+        <a href="" class="btn btn-more">Lihat Ekstrakulikuler Lainnya</a>
+      </div>
+    </section>
+      
+    
+    <section id="tenaga-pendidik" class="pendidik">
+        <div class="container">
+          <div class="section-title">
+            <h2>Tenaga Pendidik</h2>
+          </div>
+         
+            <div class="section-body">
+              <div id="slider-tools-1"></div>
+              <div class="owl-carousel" id="tenaga-pendidik-slider">
+                <div class="section-item-slider">
+                  <!-- <h1>TEst</h1> -->
+                 <a href="">
+                  <img class="foto-guru" src="assets/img/foto-guru-1.jpg" alt="">
+                 </a>
+                  <div class="section-item-caption">
+                    <a href="">
+                      <h5>SARNO, S.pd., M.Pd</h5>
+                    </a>
+                    <h6>Guru Bahasa Indonesia</h6>
+                  </div>
+                </div>
+                
+                <div class="section-item-slider">
+                  <!-- <h1>TEst</h1> -->
+                 <a href="">
+                  <img class="foto-guru" src="assets/img/foto-guru-2.jpg" alt="">
+                 </a>
+                  <div class="section-item-caption">
+                    <a href="">
+                      <h5>Drs. WARDANI</h5>   
+                    </a>
+                    <h6>Guru Bimbingan Konseling</h6>
+                  </div>
+                </div>
+                
+                <div class="section-item-slider">
+                  <!-- <h1>TEst</h1> -->
+                 <a href="">
+                  <img class="foto-guru" src="assets/img/foto-guru-3.jpg" alt="">
+                 </a>
+                  <div class="section-item-caption">
+                    <a href="">
+                      <h5>HARYANI, S.Pd., M.Pd</h5>
+                    </a>
+                    <h6>Guru Matematika</h6>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+        </div>
+        <div class="tombol-selengkapnya">
+          <a href="" class="btn btn-more">Lihat Semua Guru</a>
+        </div>
+    </section>
+    
+    
+      <section id="alumni">
+        <div class="container">
+          <div class="section-title">
+            <h2>Profil Alumni</h2>
+          </div>
+          <div class="section-body">
+            <div id="slider-tools-2"></div>
+            <div class="owl-carousel" id="alumni-slider">
+              
+              <div class="section-item-slider">
+                <div class="row">
+                  <div class="col-md-5">
+                   <img class="foto-alumni" src="assets/img/bu-susi-p.jpg" alt="">
+                  </div>
+                  <div class="col-md-7">
+                    <div class="section-item-content">
+                     <a href="">
+                        <h3>Dr. (HC) Susi Pudjiastuti</h3>
+                     </a>
+                      <p>Menteri Kelautan dan Perikanan dari Kabinet Kerja 2014-2019 yang juga
+                        pengusaha pemilik dan Presdir PT ASI Pudjiastuti Marine Product,
+                        eksportir hasil-hasil perikanan dan PT ASI Pudjiastuti Aviation atau...
+                      </p>
+                      <a href="" class="more">Selengkapnya <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="section-item-slider">
+                <div class="row">
+                  <div class="col-md-5">
+                   <img class="foto-alumni" src="assets/img/prof-dwikorita.jpg" alt="">
+                  </div>
+                  <div class="col-md-7">
+                    <div class="section-item-content">
+                     <a href="">
+                        <h3>Prof. Dwikorita Karnawati, M.Sc., Ph.D</h3>
+                     </a>
+                      <p>Prof. Dwikorita Karnawati, M.Sc., Ph.D adalah akademisi dan dosen
+                        Indonesia. Dwikorita merupakan Rektor wanita pertama Universitas Gadjah
+                        Mada, menggantikan Prof. Dr. Pratikno, M.Soc.Sc., yang...
+                      </p>
+                      <a href="" class="more">Selengkapnya <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <!-- <section id="tenaga-pendidik" class="galeri-dokumentasi"> -->
+        <section id="galeri-sekolah" class="galeri-dokumentasi">
+        <!-- <section id="galeri" class="galeri-dokumentasi"></section> -->
+        <div class="container">
+          <div class="section-title">
+            <h2>Galeri / Dokumentasi</h2>
+          </div>
+         
+            <div class="section-body">
+              <div id="slider-tools-3"></div>
+              <div class="owl-carousel" id="galeri-slider">
+                <div class="section-item-slider">
+                  <!-- <h1>TEst</h1> -->
+                  <img class="foto-guru" src="assets/img/galeri-1.jpg" alt="">
+                  <div class="section-item-caption">
+                    <a href="">
+                      <h5>Kegiatan Outbound 2019</h5>
+                    </a>
+                    <h6>Kaliboyong Camp, Pakem</h6>  
+                    <!-- <a href="">
+                      <h6>Kaliboyong Camp, Pakem</h6>  
+                    </a> -->
+                  </div>
+                </div>
+                
+                <div class="section-item-slider">
+                  <!-- <h1>TEst</h1> -->
+                  <img class="foto-guru" src="assets/img/galeri-2.jpeg" alt="">
+                  <div class="section-item-caption">
+                    <a href="">
+                      <h5>Album Ujian Nasional 2019</h5>
+                    </a>
+                    <h6>SMA N 404 Trainit, Wetanprogo</h6>
+                    <!-- <a href="">
+                      <h6>SMA N 404 Trainit, Wetanprogo</h6>
+                    </a> -->
+                  </div>
+                </div>
+                
+                <div class="section-item-slider">
+                  <!-- <h1>TEst</h1> -->
+                  <div class="video-wrapper video-galeri">
+                    <!-- <div class="video-wrapper"> -->
+                    <!-- <img class="foto-guru" src="assets/img/siswa-berqurban.jpg" alt=""> -->
+                    <!-- https://stackoverflow.com/questions/31956221/how-to-disable-auto-play-for-local-video-in-iframe -->
+                    <video width="560" height="315" src="http://localhost/web-sekolah/video/videoplayback1.mp4" controls></video>
+                     <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/n0Q_XQgvaJQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                     
+                    <!-- <iframe src="http://localhost/videoplayback1.mp4" autoplay=false frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                    <!-- <iframe width="560" height="315" src="http://localhost/videoplayback1.mp4" autoplay=false frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                  </div>
+                  <div class="section-item-caption">
+                    <a href="">
+                      <h5>Video Dokumentasi Reuni Akbar</h5>
+                    </a>
+                    <h6>GOR SMA N 404 Trainit</h6>
+                    <!-- <a href="">
+                      <h6>GOR SMA N 404 Trainit</h6>
+                    </a> -->
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+            <div class="tombol-selengkapnya">
+              <a href="" class="btn btn-more">Lihat Galeri Lainnya</a>
+            </div>
+        </div>
+    </section>
+    
+    <section id="berita" class="news">
+      <div class="container">
+        <div class="section-title">
+          <h2>Berita Terbaru</h2>
+        </div>
+        <div class="section-body">
+          <div class="row">
+            <!-- <div class="col-md-4">Berita 1</div> -->
+            <div class="col-md-4">
+              <div class="section-thumbnail">
+                <a href="">
+                  <img src="assets/img/siswa-berqurban.jpg" alt="Gambar Siswa Berqurban">
+                </a>
+                <div class="tanggal">
+                  <span class="tgl">14</span>
+                  <!-- <span>Oktober 2019</span> -->
+                  <span class="tgl-2">Oktober, 2019</span>
+                </div>
+              </div>
+              <div class="section-content">
+                <a href="">
+                  <h3>Siswa SMA Trainit 404 Berkurban untuk Memupuk Kepedulian Sosial</h3>
+                </a>
+                <p>Bertepatan dengan hari Tasrikh ke 3, para siswa SMA Negeri 404 Trainit mengadakan peringatan Idul Adha 1440H dengan<a href="" class="more"> [...]</a></p>
+              </div>
+              <div class="section-meta">
+                <a href="">Kegiatan</a>
+                <!-- <a href=""><i class="fas fa-user"></i>Administrator</a> -->
+                <a href=""><i class="fas fa-user"></i>Admin</a>
+              </div>
+            </div>
+            <!-- <div class="col-md-4">Berita 2</div> -->
+            <div class="col-md-4">
+              <div class="section-thumbnail">
+                <a href="">
+                  <img src="assets/img/siswa-berqurban.jpg" alt="Gambar Siswa Berqurban">
+                </a>
+                <div class="tanggal">
+                  <span class="tgl">14</span>
+                  <!-- <span>Oktober 2019</span> -->
+                  <span class="tgl-2">Oktober, 2019</span>
+                </div>
+              </div>
+              <div class="section-content">
+                <a href="">
+                  <h3>Siswa SMA Trainit 404 Berkurban untuk Memupuk Kepedulian Sosial</h3>
+                </a>
+                <p>Bertepatan dengan hari Tasrikh ke 3, para siswa SMA Negeri 404 Trainit mengadakan peringatan Idul Adha 1440H dengan<a href="" class="more"> [...]</a></p>
+              </div>
+              <div class="section-meta">
+                <a href="">Kegiatan</a>
+                <!-- <a href=""><i class="fas fa-user"></i>Administrator</a> -->
+                <a href=""><i class="fas fa-user"></i>Admin</a>
+              </div>
+            </div>
+            <!-- <div class="col-md-4">Berita 3</div> -->
+            <div class="col-md-4">
+              <div class="section-thumbnail">
+                <a href="">
+                  <img src="assets/img/siswa-berqurban.jpg" alt="Gambar Siswa Berqurban">
+                </a>
+                <div class="tanggal">
+                  <span class="tgl">14</span>
+                  <!-- <span>Oktober 2019</span> -->
+                  <span class="tgl-2">Oktober, 2019</span>
+                </div>
+              </div>
+              <div class="section-content">
+                <a href="">
+                  <h3>Siswa SMA Trainit 404 Berkurban untuk Memupuk Kepedulian Sosial</h3>
+                </a>
+                <p>Bertepatan dengan hari Tasrikh ke 3, para siswa SMA Negeri 404 Trainit mengadakan peringatan Idul Adha 1440H dengan<a href="" class="more"> [...]</a></p>
+              </div>
+              <div class="section-meta">
+                <a href="">Kegiatan</a>
+                <!-- <a href=""><i class="fas fa-user"></i>Administrator</a> -->
+                <a href=""><i class="fas fa-user"></i>Admin</a>
+              </div>
+            </div>
+          </div> <!-- .row -->
+          <div class="row">
+            <!-- <div class="col-md-4">Berita 4</div> -->
+            <div class="col-md-4">
+              <div class="section-thumbnail">
+                <a href="">
+                  <img src="assets/img/siswa-berqurban.jpg" alt="Gambar Siswa Berqurban">
+                </a>
+                <div class="tanggal">
+                  <span class="tgl">14</span>
+                  <!-- <span>Oktober 2019</span> -->
+                  <span class="tgl-2">Oktober, 2019</span>
+                </div>
+              </div>
+              <div class="section-content">
+                <a href="">
+                  <h3>Siswa SMA Trainit 404 Berkurban untuk Memupuk Kepedulian Sosial</h3>
+                </a>
+                <p>Bertepatan dengan hari Tasrikh ke 3, para siswa SMA Negeri 404 Trainit mengadakan peringatan Idul Adha 1440H dengan<a href="" class="more"> [...]</a></p>
+              </div>
+              <div class="section-meta">
+                <a href="">Kegiatan</a>
+                <!-- <a href=""><i class="fas fa-user"></i>Administrator</a> -->
+                <a href=""><i class="fas fa-user"></i>Admin</a>
+              </div>
+            </div>
+            <!-- <div class="col-md-4">Berita 5</div> -->
+            <div class="col-md-4">
+              <div class="section-thumbnail">
+                <a href="">
+                  <img src="assets/img/siswa-berqurban.jpg" alt="Gambar Siswa Berqurban">
+                </a>
+                <div class="tanggal">
+                  <span class="tgl">14</span>
+                  <!-- <span>Oktober 2019</span> -->
+                  <span class="tgl-2">Oktober, 2019</span>
+                </div>
+              </div>
+              <div class="section-content">
+                <a href="">
+                  <h3>Siswa SMA Trainit 404 Berkurban untuk Memupuk Kepedulian Sosial</h3>
+                </a>
+                <p>Bertepatan dengan hari Tasrikh ke 3, para siswa SMA Negeri 404 Trainit mengadakan peringatan Idul Adha 1440H dengan<a href="" class="more"> [...]</a></p>
+              </div>
+              <div class="section-meta">
+                <a href="">Kegiatan</a>
+                <!-- <a href=""><i class="fas fa-user"></i>Administrator</a> -->
+                <a href=""><i class="fas fa-user"></i>Admin</a>
+              </div>
+            </div>
+            <!-- <div class="col-md-4">Berita 6</div> -->
+            <div class="col-md-4">
+              <div class="section-thumbnail">
+                <a href="">
+                  <img src="assets/img/siswa-berqurban.jpg" alt="Gambar Siswa Berqurban">
+                </a>
+                <div class="tanggal">
+                  <span class="tgl">14</span>
+                  <!-- <span>Oktober 2019</span> -->
+                  <span class="tgl-2">Oktober, 2019</span>
+                </div>
+              </div>
+              <div class="section-content">
+                <a href="">
+                  <h3>Siswa SMA Trainit 404 Berkurban untuk Memupuk Kepedulian Sosial</h3>
+                </a>
+                <p>Bertepatan dengan hari Tasrikh ke 3, para siswa SMA Negeri 404 Trainit mengadakan peringatan Idul Adha 1440H dengan<a href="" class="more"> [...]</a></p>
+              </div>
+              <div class="section-meta">
+                <a href="">Kegiatan</a>
+                <!-- <a href=""><i class="fas fa-user"></i>Administrator</a> -->
+                <a href=""><i class="fas fa-user"></i>Admin</a>
+              </div>
+            </div>
+          </div> <!-- .row -->
+        </div>
+        <div class="tombol-selengkapnya">
+          <a href="" class="btn btn-more">Lihat Berita Lainnya</a>
+        </div>
+      </div> <!-- .continer -->
+    </section> <!-- .section #berita -->
+    
+    
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+           <div class="footer-col">
+            <!-- <img src="assets/img/logo-toga.png" alt="Logo"> -->
+            <div class="brand">
+              <!-- <img src="assets/img/logo-toga.png" alt="Logo"> -->
+              <img src="assets/img/logo-toga.png" alt="Logo">
+              <h1>SMA Negeri 404 Teladan Trainit</h1>
+            </div>
+            <p class="tentang">Lorem ipsum dolor sit amet, consectetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+            <!-- <p></p> -->
+            <ul class="sosmed">
+              <!-- <li><a href=""><i class="fab fa-facebook"></i></a></li> -->
+              <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href=""><i class="fab fa-instagram"></i></a></li>
+              <li><a href=""><i class="fab fa-youtube"></i></a></li>
+            </ul>
+           </div>
+          </div>
+          <div class="col-md-4">
+            <div class="footer-col">
+              <h2>Kontak Kami</h2>
+              <p class="alamat">Jl. Cuwiri No.10, Pakuncen, Kalasan, Wetanprogo, Daerah Istimewa Yogyakarta 54362</p>
+              <ul class="kontak">
+                <li><i class="fas fa-phone"></i> Telp/Fax : 0234 - 56789 -123</li>
+                <li><i class="fas fa-envelope"></i> Email : humas@teamtrainit.com</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="footer-col">
+              <h2>Navigasi</h2>
+              <ul class="footer-nav">
+                <li><a href="">Profil</a></li>
+                <li><a href="">Visi dan Misi</a></li>
+                <li><a href="">Struktur Organisasi</a></li>
+                <li><a href="">Sumber Daya Manusia</a></li>
+                <li><a href="">Pendaftaran PPDB 2020 <span>info</span></a></li>
+              </ul>
+            </div>  
+          </div>
+        </div>
+      </div> <!-- .container -->
+      <div class="footer-copyright">
+        <div class="container text-center">
+          <h6>Hak cipta dilindungi. © 2019 <a href="">Teamtrainit.com</a></h6>
+        </div>
+      </div>
+    </footer>
+      
+        
+      
+    <script src="assets/js/jquery-3.3.1.slim.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  	
+  </body>
+</html>
